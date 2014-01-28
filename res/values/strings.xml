@@ -266,6 +266,8 @@
     <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
     <!-- Settings screen, dialog choice for 12 megapixels picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_12mp">12M pixels</string>
+    <!-- Settings screen, dialog choice for 10 megapixels picture size [CHAR LIMIT=15] -->
+    <string name="pref_camera_picturesize_entry_10mp">10M pixels</string>
     <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
     <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=20] -->
@@ -288,6 +290,8 @@
     <string name="pref_camera_picturesize_entry_vga">VGA</string>
     <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=20] -->
     <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
+    <!-- Settings screen, dialog choice for nHD picture size [CHAR LIMIT=20] -->
+    <string name="pref_camera_picturesize_entry_nhd">nHD</string>
 
     <!-- Settings screen, Focus mode title -->
     <string name="pref_camera_focusmode_title">Focus mode</string>
