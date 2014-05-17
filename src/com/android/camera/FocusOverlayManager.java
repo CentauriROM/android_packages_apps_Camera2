@@ -596,12 +596,7 @@ public class FocusOverlayManager {
     }
 
     private boolean needAutoFocusCall() {
-        String focusMode = getFocusMode();
-        boolean continuousFocus =
-            CameraUtil.isContinuousFocusNeedsAutoFocusCall()
-            && focusMode.equals(Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
-        return focusMode.equals(Parameters.FOCUS_MODE_AUTO)
-                || continuousFocus;
+        return getFocusMode().equals(Parameters.FOCUS_MODE_AUTO);
     }
 
     public void setZslEnable(boolean value) {

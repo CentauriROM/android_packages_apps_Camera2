@@ -198,9 +198,6 @@ public class CameraUtil {
     // For setting video size before recording starts
     private static boolean sEarlyVideoSize;
 
-    // Continuous focus mode needs autoFocusCall
-    private static boolean sContinuousFocusNeedsAutoFocusCall;
-
     private CameraUtil() {
     }
 
@@ -217,8 +214,6 @@ public class CameraUtil {
                 context.getResources().getBoolean(R.bool.cancelAutoFocusOnPreviewStopped);
         sSamsungCamMode = context.getResources().getBoolean(R.bool.needsSamsungCamMode);
         sEarlyVideoSize = context.getResources().getBoolean(R.bool.needsEarlyVideoSize);
-        sContinuousFocusNeedsAutoFocusCall =
-            context.getResources().getBoolean(R.bool.continuousFocusNeedsAutoFocusCall);
         sSamsungHDRFormat = context.getResources().getBoolean(R.bool.needsSamsungHDRFormat);
         sNoFocusModeChangeForTouch = context.getResources().getBoolean(
                 R.bool.useContinuosFocusForTouch);
@@ -230,10 +225,6 @@ public class CameraUtil {
 
     public static boolean useSamsungCamMode() {
         return sSamsungCamMode;
-    }
-
-    public static boolean isContinuousFocusNeedsAutoFocusCall() {
-        return sContinuousFocusNeedsAutoFocusCall;
     }
 
     public static boolean needSamsungHDRFormat() {
